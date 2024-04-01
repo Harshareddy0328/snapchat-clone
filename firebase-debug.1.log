@@ -1,0 +1,42 @@
+[debug] [2024-02-26T10:05:35.891Z] ----------------------------------------------------------------------
+[debug] [2024-02-26T10:05:35.893Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-26T10:05:35.893Z] CLI Version:   13.3.1
+[debug] [2024-02-26T10:05:35.894Z] Platform:      win32
+[debug] [2024-02-26T10:05:35.894Z] Node Version:  v20.10.0
+[debug] [2024-02-26T10:05:35.894Z] Time:          Mon Feb 26 2024 15:35:35 GMT+0530 (India Standard Time)
+[debug] [2024-02-26T10:05:35.894Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-26T10:05:35.898Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-26T10:05:35.899Z] > authorizing via signed-in user (harshareddy0328@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\harsh\Projects\snapchat-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-26T10:05:55.220Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-26T10:05:57.237Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-26T10:05:57.238Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project snapchat-clone-f3a74 (snapchat-clone) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-26T10:06:00.117Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/snapchat-clone-f3a74 [none]
+[debug] [2024-02-26T10:06:00.531Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/snapchat-clone-f3a74 200
+[debug] [2024-02-26T10:06:00.532Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/snapchat-clone-f3a74 {"projectId":"snapchat-clone-f3a74","projectNumber":"456757814806","displayName":"snapchat-clone","name":"projects/snapchat-clone-f3a74","resources":{"hostingSite":"snapchat-clone-f3a74","storageBucket":"snapchat-clone-f3a74.appspot.com","locationId":"asia-south1"},"state":"ACTIVE","etag":"1_c835c821-4c0e-494e-b0e6-86333638aaf1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
